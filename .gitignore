@@ -1,0 +1,81 @@
+# https://github.com/github/gitignore/blob/master/C.gitignore
+
+# Prerequisites
+*.d
+
+# settings
+*.*.xml
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.list
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.su
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.bin
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.cyclo
+*.o
+*.d
+*.launch
+Debug/
+Debug/**/
+.settings/
+.settings/**/
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# cscope with Vim
+cscope.*
+
+#ctags with Vim
+tags
+types_c.taghl
+
+#CtrlP
+ctrlp.root
+
+#html
+*.html
